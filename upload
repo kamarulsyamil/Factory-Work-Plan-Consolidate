@@ -1,0 +1,22 @@
+from shareplum import Office365
+from shareplum import Site
+from shareplum.site import Version
+
+#Logging info
+server_url = "https://dell.sharepoint.com/"
+site_url = server_url + "sites/TestGPP"
+Username = 'Kamarul_Syamil'
+Password = 'Dream@12345'
+Sharepoint_folder = 'Consolidate%20View'
+#fileName = '"/Dell/project/Test1.xlsx"'
+fileName = 'Test1.xlsx'
+
+def file_upload_to_sharepoint(**context):
+    authcookie = Office365(server_url, username=Username, password=Password).GetCookies()
+    site = Site(site_url, version=Version.v365, authcookie=authcookie)
+    folder = site.Folder(Sharepoint_folder)
+    with open(fileName, mode='rb') as file:  #binary file
+        fileContent = file.read()
+    folder.upload_file(fileContent, "filename.bin")
+
+file_upload_to_sharepoint()
