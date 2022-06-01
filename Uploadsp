@@ -3,9 +3,9 @@ from shareplum import Site
 from shareplum.site import Version
 
 
-authcookie = Office365('https://hernize.sharepoint.com', username='KAMARULSYAMIL@Hernize.onmicrosoft.com', password='Syamil123_').GetCookies()
+authcookie = Office365('https://hernize.sharepoint.com', username='', password='').GetCookies()
 site = Site('https://hernize.sharepoint.com/sites/Test1', version=Version.v365, authcookie=authcookie) 
 folder = site.Folder('Shared Documents')
-with open (r"C:\Users\Kamarul_Syamil\Desktop\Dell\Project\Test3.csv", mode='rb') as file:
+with open (r"Test3.csv", mode='rb') as file:
     fileContent = file.read()
 folder.upload_file(fileContent, "Test3.csv")
