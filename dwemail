@@ -37,7 +37,7 @@ while n < len(filtered):
             attachments = target_email.Attachments    
     
     # save attachments to file
-        save_path = 'C:\\Users\\Kamarul_Syamil\\Desktop\\Dell\\Project\\{}'
+        save_path = 'C:\\{}'
 
 
         for file in attachments:
