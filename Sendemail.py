@@ -11,7 +11,7 @@ mailItem = olApp.CreateItem(0)
 mailItem.Subject = 'Test '  #can be any subject
 mailItem.BodyFormat = 1
 mailItem.Body = "Attachment of Consolidate View"  #can be any body
-mailItem.To = 'Kamarul.Syamil@Dell.com' 
+mailItem.To = 'email' 
 
 # mailItem._oleobj_.Invoke(*(64209, 0, 8, 0, olNS.Accounts.Item('<email@gmail.com'))) [NOTHING JUST IGNORE FOR NOW! DONT DELETE ]
 
