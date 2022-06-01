@@ -5,8 +5,8 @@ from shareplum.site import Version
 #Logging info
 server_url = "https://dell.sharepoint.com/"
 site_url = server_url + "sites/TestGPP"
-Username = 'Kamarul_Syamil'
-Password = 'Dream@12345'
+Username = 'un'
+Password = 'pw'
 Sharepoint_folder = 'Consolidate%20View'
 #fileName = '"/Dell/project/Test1.xlsx"'
 fileName = 'Test1.xlsx'
