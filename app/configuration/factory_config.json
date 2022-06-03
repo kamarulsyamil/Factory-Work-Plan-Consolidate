@@ -1,0 +1,26 @@
+{
+    "CCC6": 
+        {
+            "line": "Line 1-10",
+            "date": "",
+
+            "start_time1": "8:30",
+            "end_time1": "21:00",
+            "UPH1": "60",
+
+            "start_time2": "",
+            "end_time2": "",
+            "UPH2": "",
+
+            "start_time3": "",
+            "end_time3": "",
+            "UPH3": ""
+        },
+    
+    "BRH1":
+        {
+            "first_shift": "8:30:00",
+            "Second_shift": ""
+
+        }
+}

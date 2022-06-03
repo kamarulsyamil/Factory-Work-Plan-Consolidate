@@ -1,0 +1,14 @@
+{
+    "file_dir":
+        {
+            "CCC2/4": "\\\\w1039fnf93.dhcp.apac.dell.com\\PlannerDoc\\SHIFT ARRANGEMENT\\Production Line Arrangement of 2022.xlsx",
+            "EMFP_dir" : "sources\\Grafik Marzec -Maj 22 .pdf",
+            "main_excel" : "Consolidated Factory Workplan.xlsx",
+            "EMFP" : "sources\\Grafik Marzec -Maj 22 .pdf"
+        },
+
+    "sharepoint":
+        {
+            "email" : "dlcexch04@dell.com"
+        }
+}
